@@ -1,0 +1,25 @@
+                        ## RANDOM JOKES GENERATER ##
+In his project  we firstly install axios and express this is a tools is used in web development.
+@Express : - 
+
+1) Express is a minimal and flexible Node.js web application framework.
+
+2) It provides a robust set of features to develop web and mobile applications.
+
+@Axios : -
+
+1) Axios is a promise-based HTTP client for the browser and Node.js.
+
+2) It makes it easy to send asynchronous HTTP requests to REST endpoints and perform CRUD (Create, Read, Update, Delete) operations.
+
+# =>   decalre a port varialble a set a 3000 the 3000 is port number on which the server will listen for incomming HTTP request.
+
+# => create async function to get a response a randome jokes from https://icanhazdadjoke.com/ a data comes in header request 
+
+# => Header in some common types and as we used application/json as accept a specifies the media types that the client is willing to receive from server.
+
+# => creating a HTTP server using async and await a request.method == GET the response as 200 OK and the response such as text/HTML content 
+
+# => in API data string  as we write response get a text to  stringify 
+
+=> Check a dad joke get random to get the data as localhost:8080\ also check a Postman to GET localhost:8080\
